@@ -1,0 +1,44 @@
+2 threads
+aprox pi so far= 3.143576000000
+
+aprox pi so far= 3.139868000000
+
+aprox pi so far= 3.142180428910
+
+aprox pi so far= 3.141160429420
+
+aprox pi so far= 3.142055238630
+
+aprox pi so far= 3.140625906249
+
+aprox pi so far= 3.141621643784
+
+aprox pi so far= 3.141027644229
+
+aprox pi final= 3.141190400000
+
+Time to complete: 5359121366ns
+
+
+1 thread
+aprox pi so far= 3.139488000000
+
+aprox pi so far= 3.139266430367
+
+aprox pi so far= 3.140591239606
+
+aprox pi so far= 3.140685644486
+
+aprox pi so far= 3.140912687270
+
+aprox pi so far= 3.141014049155
+
+aprox pi so far= 3.141259593206
+
+aprox pi so far= 3.141146251497
+
+aprox pi so far= 3.141140318986
+
+aprox pi final= 3.140973600000
+
+Time to complete: 9551068251ns

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2014-03-19T23:26:36</date>
+  <millis>1395280596515</millis>
+  <sequence>0</sequence>
+  <logger>org.eclipse.jetty.server.Server</logger>
+  <level>INFO</level>
+  <class>org.eclipse.jetty.util.log.JavaUtilLog</class>
+  <method>info</method>
+  <thread>1</thread>
+  <message>jetty-8.1.14.v20131031</message>
+</record>
+<record>
+  <date>2014-03-19T23:26:36</date>
+  <millis>1395280596671</millis>
+  <sequence>1</sequence>
+  <logger>org.eclipse.jetty.webapp.StandardDescriptorProcessor</logger>
+  <level>INFO</level>
+  <class>org.eclipse.jetty.util.log.JavaUtilLog</class>
+  <method>info</method>
+  <thread>1</thread>
+  <message>NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet</message>
+</record>
+<record>
+  <date>2014-03-19T23:26:36</date>
+  <millis>1395280596751</millis>
+  <sequence>2</sequence>
+  <logger>org.eclipse.jetty.server.AbstractConnector</logger>
+  <level>INFO</level>
+  <class>org.eclipse.jetty.util.log.JavaUtilLog</class>
+  <method>info</method>
+  <thread>1</thread>
+  <message>Started SelectChannelConnector@0.0.0.0:8000</message>
+</record>
+<record>
+  <date>2014-03-19T23:26:40</date>
+  <millis>1395280600596</millis>
+  <sequence>3</sequence>
+  <logger>/</logger>
+  <level>INFO</level>
+  <class>org.eclipse.jetty.util.log.JavaUtilLog</class>
+  <method>info</method>
+  <thread>13</thread>
+  <message>StudentServlet-json: /student</message>
+</record>
+<record>
+  <date>2014-03-19T23:27:32</date>
+  <millis>1395280652316</millis>
+  <sequence>4</sequence>
+  <logger>/</logger>
+  <level>INFO</level>
+  <class>org.eclipse.jetty.util.log.JavaUtilLog</class>
+  <method>info</method>
+  <thread>14</thread>
+  <message>StudentServlet-json: /student</message>
+</record>
+<record>
+  <date>2014-03-19T23:27:35</date>
+  <millis>1395280655009</millis>
+  <sequence>5</sequence>
+  <logger>/</logger>
+  <level>INFO</level>
+  <class>org.eclipse.jetty.util.log.JavaUtilLog</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>StudentServlet-json: /student</message>
+</record>
+<record>
+  <date>2014-03-19T23:27:51</date>
+  <millis>1395280671837</millis>
+  <sequence>6</sequence>
+  <logger>/</logger>
+  <level>INFO</level>
+  <class>org.eclipse.jetty.util.log.JavaUtilLog</class>
+  <method>info</method>
+  <thread>16</thread>
+  <message>CourseServlet-json: /course</message>
+</record>
+<record>
+  <date>2014-03-19T23:27:51</date>
+  <millis>1395280671841</millis>
+  <sequence>7</sequence>
+  <logger>/</logger>
+  <level>INFO</level>
+  <class>org.eclipse.jetty.util.log.JavaUtilLog</class>
+  <method>info</method>
+  <thread>16</thread>
+  <message>CourseServlet-json: null</message>
+</record>
+<record>
+  <date>2014-03-19T23:28:01</date>
+  <millis>1395280681236</millis>
+  <sequence>8</sequence>
+  <logger>/</logger>
+  <level>INFO</level>
+  <class>org.eclipse.jetty.util.log.JavaUtilLog</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>CourseServlet-json: /course</message>
+</record>
+<record>
+  <date>2014-03-19T23:28:01</date>
+  <millis>1395280681239</millis>
+  <sequence>9</sequence>
+  <logger>/</logger>
+  <level>INFO</level>
+  <class>org.eclipse.jetty.util.log.JavaUtilLog</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>CourseServlet-json: course = med.Course@3e4d49</message>
+</record>
+<record>
+  <date>2014-03-19T23:28:17</date>
+  <millis>1395280697097</millis>
+  <sequence>10</sequence>
+  <logger>/</logger>
+  <level>INFO</level>
+  <class>org.eclipse.jetty.util.log.JavaUtilLog</class>
+  <method>info</method>
+  <thread>17</thread>
+  <message>CourseServlet-json: /course</message>
+</record>
+<record>
+  <date>2014-03-19T23:28:17</date>
+  <millis>1395280697098</millis>
+  <sequence>11</sequence>
+  <logger>/</logger>
+  <level>INFO</level>
+  <class>org.eclipse.jetty.util.log.JavaUtilLog</class>
+  <method>info</method>
+  <thread>17</thread>
+  <message>CourseServlet-json: course = med.Course@152fafd</message>
+</record>
+<record>
+  <date>2014-03-19T23:28:47</date>
+  <millis>1395280727177</millis>
+  <sequence>12</sequence>
+  <logger>/</logger>
+  <level>INFO</level>
+  <class>org.eclipse.jetty.util.log.JavaUtilLog</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>CourseServlet-json: /course</message>
+</record>
+<record>
+  <date>2014-03-19T23:28:47</date>
+  <millis>1395280727184</millis>
+  <sequence>13</sequence>
+  <logger>/</logger>
+  <level>INFO</level>
+  <class>org.eclipse.jetty.util.log.JavaUtilLog</class>
+  <method>info</method>
+  <thread>18</thread>
+  <message>CourseServlet-json: course = med.Course@627178</message>
+</record>

@@ -1,0 +1,56 @@
+/* frame of slide */
+div.slider {
+    display : block;
+    width : 150px;
+    height : 15px;
+    border : 2px blue solid;
+    overflow : hidden;
+    padding : 3px;
+}
+
+/* the slider */
+div.slider div {
+    border : 0px;
+    padding : 0px;
+    width : 0px;
+    height : 15px;
+    background : url(../images/gold_crinkle.jpg);
+    background : red;
+}
+
+table.slider {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table.slider tr:first-child td {
+    text-align : center;
+}
+table.slider tr td {
+    padding : 2px;
+}
+
+div#demo {
+    display: block;
+    margin-top : 0.5in;
+    margin-bottom : 0.5in;
+    margin-left : 10%;
+    width : 50%;
+    border-top: solid 5px red;
+    border-left: solid 5px blue;
+    border-right: solid 5px green;
+    border-bottom: solid 5px rgb(0,255,255);
+    overflow : hidden;
+}
+div#demo p {
+    background : rgb(200,200,240);
+    margin: 0px;
+}
+
+div#atend {
+    display: block;
+    background : rgb(240,200,210);
+    width: 5in;
+    margin-left : 1in;
+}
+

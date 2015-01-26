@@ -1,0 +1,5 @@
+To run this server application: 
+1. Change to this directory.
+2. Then change to the "Sources" directory in this directory
+3. run "javac *.java"
+4. run "java HttpCourseServer"

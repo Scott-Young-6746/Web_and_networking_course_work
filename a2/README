@@ -1,0 +1,11 @@
+Compile all source code in this folder with:
+    javac *.java
+Program exercise 1:
+    run this program by typing:
+        java CourseInRooms > results.html
+Program exercise 2:
+    @MaxSimulations: number of simulations you wish to run the program with
+    @Threads: the number of threads you wish to use
+    (Replace all variable names with the values you wish to use on the command line)
+    run this program by typing:
+        java PiParrallel "MaxSimulations" "Threads"

@@ -1,0 +1,6 @@
+Programs complie with
+"javac *.java"
+Programs run with
+#in seperate terminals
+java MeetingServer (insert appropreate integer number here, recommend 0)
+java MeetingClient localhost (port number that MeetingServer gives you) (Course subject) (Course number)

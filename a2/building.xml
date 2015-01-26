@@ -1,0 +1,31 @@
+<building-codes>
+    <building code='PS'>Printing Services</building>
+    <building code='LL'>Alumni House</building>
+    <building code='H'>Health Sciences Centre</building>
+    <building code='AQ'>The Works - Aquarena</building>
+    <building code='FH'>The Works - Field House</building>
+    <building code='ED'>Education</building>
+    <building code='UA'>Utilities Annex</building>
+    <building code='PE'>Physical Education &amp; Athletics</building>
+    <building code='L'>Queen Elizabeth II Library</building>
+    <building code='UC'>University Centre</building>
+    <building code='MT'>Memorial Tower</building>
+    <building code='IIC'>Bruneau Centre for Innovation and Research</building>
+    <building code='A'>Arts and Administration</building>
+    <building code='BP'>208 Elizabeth Avenue</building>
+    <building code='CS'>Computing Services</building>
+    <building code='BT'>Biotechnology</building>
+    <building code='EN'>Engineering and Applied Sciences</building>
+    <building code='ER'>Earth Sciences</building>
+    <building code='C'>Chemistry-Physics</building>
+    <building code='SN'>Science</building>
+    <building code='HH'>Mathematics</building>
+    <building code='HX'>Facilities Management Storage</building>
+    <building code='MU'>Music</building>
+    <building code='FM'>Facilities Management</building>
+    <building code='CF'>C-CORE Centrifuge Centre</building>
+    <building code='K'>C-CORE</building>
+    <building code='BN'>Business Administration</building>
+    <building code='J'>St. John's College</building>
+    <building code='QC'>Queen's College</building>
+</building-codes>

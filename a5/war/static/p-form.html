@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>a patient form</title>
+<base href="/demo/"/>
+<style type="text/css">
+label {
+    display: inline-block;
+    width: 140px;
+    text-align: right;
+    padding-right: 7px;
+}
+label:hover + input {
+    background : rgb(150,255,255);
+}
+input[type='text'] {
+    margin-top: 5px;
+}
+input[type='submit'] {
+    margin-top: 10px;
+}
+</style>
+</head>
+<body>
+<h1> Patient Information </h1>
+<form action="requests/pat" id="f1" method="post" name="patient">
+<label for="patient-name">Patient Name:</label>
+<input id="patient-name" name="patient-name" type="text"> <br>
+<label for="patient-age"> Patient Age: </label>
+<input id="patient-age" name="patient-age" type="text"><br>
+<label for="patient-height"> Patient Height: </label>
+<input id="patient-height" name="patient-height" type="text" value="100.0"><br>
+<label for="patient-weight"> Patient Weight: </label>
+<input id="patient-weight" name="patient-weight" type="text" value="80.0"><br>
+<input type="submit" value="Send Information">
+</form>
+</body>
+</html>

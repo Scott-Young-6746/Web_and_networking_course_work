@@ -1,0 +1,53 @@
+<html>
+<head>
+<script type="text/javascript" src="static/js/local_ajax.js">
+</script>
+<script type="text/javascript" src="static/js/pat-form.js">
+</script>
+<style type="text/css">
+table tr td:first-child {
+    text-align: right;
+}
+tr:hover input[type='text'] {
+    background : rgb(150,255,255);
+}
+td { padding : 5px; }
+</style>
+</head>
+<body>
+    <h1> Student Information </h1>
+    <form id="f1" name="student">
+        <table>
+        <tr>
+            <td><label for="student-name">Student Name:</label></td>
+            <td><input type="text" name="student-name" id="student-name"/></td>
+        </tr>
+        <tr>
+            <td><label for="student-number"> Student number: </label></td>
+            <td><input type="text" name="student-number" id="student-number"/></td>
+        </tr>
+        <tr>
+            <td><label for="student-address"> Student mailing address: </label></td>
+            <td><input type="text" name="student-address" id="student-address"/></td>
+        </tr>
+        <tr>
+            <td><label for="student-email"> Student email: </label></td>
+            <td><input type="text" name="student-email" id="student-email"/></td>
+        </tr>
+        </table>
+        <input type="submit" value="Send Information"/>
+    </form>
+    <script type="text/javascript">
+        // disables sending form on return
+        function ignoreKeyPress( event ) {
+            if (event.keyCode == 13) {
+                 event.preventDefault();
+            }
+        }
+        var matches = document.querySelectorAll("#f1 input[type='text']");
+        for( var i = 0 ; i &lt; matches.length; i++ ) {
+            matches[i].addEventListener('keypress', ignoreKeyPress );
+        }
+    </script>
+</body>
+</html>

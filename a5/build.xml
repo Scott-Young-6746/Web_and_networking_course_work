@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<project name="webapp" default="help" basedir=".">
+
+    <target name="help">
+        <echo message="ant help -- print this message"/>
+        <echo message="ant jetty -- runs the web application using jetty"/>
+        <echo message="ant mkwar -- creates a web archieve"/>
+        <echo message="ant compile -- compiles the source"/>
+        <echo message="ant clean -- removes war directory"/>
+        <echo message="ant clean-log -- removes logs"/>
+    </target>
+
+    <property name="jetty.dir" value="./jetty" />
+    <property name="lib.dir" value="./lib" />
+    <property name="app.name" value="" />
+    <property name="server.port" value="8000" />
+
+    <path id="lib-jars">
+        <fileset dir="${lib.dir}" />
+        <fileset dir="${jetty.dir}" />
+    </path>
+
+    <target name="init">
+        <mkdir dir="logs"/>
+        <mkdir dir="war"/>
+        <mkdir dir="war/WEB-INF"/>
+        <mkdir dir="war/WEB-INF/classes"/>
+        <mkdir dir="war/WEB-INF/lib"/>
+    </target>
+
+    <target name="server" depends="init">
+        <javac
+            includeantruntime="false"
+            srcdir="server" destdir="server">
+            <include name="SingleWebApp.java"/>
+            <classpath path="server">
+                <path refid="lib-jars"/>
+            </classpath>
+        </javac>
+    </target>
+
+    <target name="jetty" depends="server,compile">
+        <java classname="SingleWebApp" fork="true">
+            <classpath path="server">
+                <path refid="lib-jars"/>
+            </classpath>
+            <arg value="war"/>
+            <arg value="/${app.name}"/>
+        </java>
+    </target>
+
+    <target name="compile" depends="init">
+        <javac
+            includeantruntime="false"
+            srcdir="src" destdir="war/WEB-INF/classes">
+
+            <include name="**/*.java"/>
+            <classpath>
+                <path refid="lib-jars"/>
+            </classpath>
+        </javac>
+    </target>
+
+    <target name="clean">
+        <!-- remove the directory tree -->
+        <delete>
+            <fileset dir="war/WEB-INF/classes" includes="**/*.class"/>
+        </delete>
+        <delete file="server/SingleWebApp.class" />
+        <delete file="${app.name}.war" />
+    </target>
+
+    <target name="clean-log">
+        <delete>
+            <fileset dir="./logs">
+                <include name="*.log"/>
+            </fileset>
+        </delete>
+    </target>
+
+    <!-- Creates a WAR file, this is only necessary when installing
+          your application into an external server,                
+    -->
+    <target name="mkwar" depends="compile">
+        <jar jarfile="${app.name}.war" basedir="${app.wardir}" />
+    </target>
+
+</project>
